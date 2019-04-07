@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Phase Space Diagram Drawer</title>
+    <link rel = "stylesheet"
+   type = "text/css"
+   href = "style.css" />
+
+  </head>
+  <body>
+  	<div class="main_div">
+	  	<div class="canvas_div">
+	  		<canvas class="canvas" width="500" height="500"></canvas>
+	  	</div>
+	  	<div class="input_panel">
+		  	Function: <input class="input" id="input_function" value="-0.5*f2-sin(f1)"/></br>
+	  		X:
+		  	<input class="input" id="input_start_x" value="-10"/>
+		  	to <input class="input" id="input_end_x" value="10"/>
+		  	<br>
+	  		Y:
+		  	<input class="input" id="input_start_y" value="-10"/>
+		  	to <input class="input" id="input_end_y" value="10"/>
+		  	<br>
+		  	Step size: <input class="input" id="input_step_size" value=".6"/>
+			<br>
+		  	<button onclick='submit()'>Render!</button>
+	  	</div>
+  	</div>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>

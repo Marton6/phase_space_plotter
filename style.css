@@ -1,0 +1,36 @@
+body{
+	font-family: "Arial";
+}
+.canvas_div{
+	display: inline-block;
+	margin: auto;
+	width: 50%;
+}
+
+.canvas{
+	border-style: solid;
+	border-width: 2;
+	border-color: steelblue;
+	border-radius: 2%;
+	padding: 3px; 
+}
+
+.main_div{
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	transform:translate(-50%, 0);
+	border-style: solid;
+	border-width: 2;
+	border-color: steelblue;
+	border-radius: 2%;
+	padding: 10px; 
+}
+
+.input{
+
+}
+
+.input_panel{
+
+}
